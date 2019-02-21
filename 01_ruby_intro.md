@@ -5,10 +5,10 @@ Check which version of ruby you have installed (compare this to the version that
 
 ## Floats and integers 
 What do you think happens when you combine the following floats and integers? Is the result a float or an integer? If an operator is unfamiliar, look it up and learn what it does. Check yourself using IRB.
-1. 3.0 / 2
-2. 3 / 2.0
-3. 4 ** 2.0
-4. 4.1 % 2
+1. 3.0 / 2 = 1.5
+2. 3 / 2.0 = 1.5 
+3. 4 ** 2.0 = 16.0
+4. 4.1 % 2 = 
 
 ## Strings
 What do you think the output will be if you type these into IRB? Record the output you expect, and the actual (if it is different).
