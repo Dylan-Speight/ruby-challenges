@@ -16,8 +16,13 @@
 # 
 # Examples - what if both numbers are equal or are strings?
 
-def largest_number (number_1, number_2)
-  # Your code here
+
+def largest_number(number_1, number_2)
+  if number_1 > number_2
+    puts "#{number_1}"
+  else 
+    puts "#{number_2}"
+  end
 end
 
-largest_number(100,50)
+largest_number(30, 80)
