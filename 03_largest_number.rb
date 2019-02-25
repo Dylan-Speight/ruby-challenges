@@ -17,18 +17,20 @@
 # Examples - what if both numbers are equal or are strings?
 
 
-def largest_number2(number_1, number_2)       # Defining the method
-  
-  if number_1 == number_2                     # In case of equal values
-    puts "They are the same"
-  
+def largest_number(number_1, number_2)       # Defining the method
+
+  if !number_1.is_a?(Numeric) or !number_2.is_a?(Numeric)
+      puts "Gimme a number"
+  elsif number_1 == number_2                     # In case of equal values will return "They are the same"
+      puts "They are the same"  
   else
-  number2 = [number_1, number_2]              
-  
-  return number2.max                          # Will return highest value in array
+      numbers = [number_1, number_2]              # Create an array to sort numbers   
+      return numbers.max                          # Will return highest value in array
   end
 end
 
-puts largest_number2(100, 50)
-puts largest_number2(10, 20)
-puts largest_number2("Hot", "Hot")          # Strings return highest value in alphabetical order 
+puts largest_number(100, 50)                 #Highest value of 100 is returned and putsed
+
+puts largest_number(10, 20)
+
+puts largest_number2("Hot", "Cold")            # Strings return highest value in alphabetical order 
