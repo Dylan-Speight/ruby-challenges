@@ -23,6 +23,11 @@
 * 03_largest_number
 * 04_sum_numbers
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 05_in_array
 >>>>>>> a600065b3f320365a06fe044bcddc70911b1fe59
+=======
+* 05_in_array
+* 06_definition
+>>>>>>> 0c5142cf57ae7e09850c719182717c4efdd33e24
