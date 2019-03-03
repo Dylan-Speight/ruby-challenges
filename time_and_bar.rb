@@ -9,7 +9,7 @@ time_to_class = "90 minutes"
 how_long_to_class = "This morning I took the train to class and it took me #{time_to_class} to arrive."
 p how_long_to_class
 
-# PART 2:
+# PART 2:c
 # You are working at a bar where you have a current backlog of drinks to make:
 # 3 cocktails
 # 2 waters
