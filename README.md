@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## List of challenge branches
 =======
 # List of challenge branches
@@ -30,10 +31,14 @@
 =======
 ## List of challenge branches
 >>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
+=======
+## List of challenge branches
+>>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
 * 04_sum_numbers
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,12 +59,21 @@
 =======
 =======
 >>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
+=======
+>>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
 =======
 * 09_vowels
 >>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
+=======
+* 09_vowels
+* 10_unique
+* 11_fizzbuzz
+* 12_count_words
+>>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a
