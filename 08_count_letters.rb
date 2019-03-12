@@ -11,9 +11,11 @@
 # ruby tests/08_count_letters_test.rb
 
 def count_letters (string)
-  string = string.split('')
-  string.uniq.map { |letter| [letter, string.count(letter)] }.to_h
+  string = string.chars
+  count_letters_hash = string.uniq.map { |letter| [letter, string.count(letter)] }.to_h
+  return count_letters_hash
 end
 
-  return result # return the hash
-end
+
+
+p count_letters('mississippi')
