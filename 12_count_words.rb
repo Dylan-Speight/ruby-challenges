@@ -12,10 +12,12 @@
 
 
 # Your code here
-string = "hi hi Hi hello 1 1".downcase.split
-output = string.uniq.map { |word| [word, string.count(word)] }.to_h
-output.each do |key, value|
-    puts "#{key} #{value}"
+def count_words(string)
+    string = string.downcase.split
+    output = string.uniq.map { |word| [word, string.count(word)] }.to_h
+    output.each do |key, value|
+        puts "#{key} #{value}"
+    end
 end
 
 
