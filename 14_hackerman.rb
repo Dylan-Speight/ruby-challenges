@@ -14,19 +14,16 @@
 
 # Check your solution by running:
 # ruby 14_hackerman.rb
-
 puts "first_input"
 first = gets.chomp.downcase.split
 p first
 puts "second input"
 second = gets.chomp.downcase.split
 p second
-for first in 
-    if first.include?(word)
-       first = first[second.index(word)] = "HIDDEN"
-    end
-end
-p carriage
+p first.select { |word| second.include?(word) }
+
+
+
 
 
 # Your code here
