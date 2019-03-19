@@ -20,8 +20,8 @@ p first
 puts "second input"
 second = gets.chomp.downcase.split
 p second
-p first.select { |word| second.include?(word) }
-
+# p first.select { |word| second.include?(word) }
+common = first & second
 
 
 

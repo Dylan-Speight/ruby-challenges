@@ -16,6 +16,9 @@
 # Check your solution by running:
 # ruby 15_change_letters.rb
 
-
+puts "What is input?"
+input = gets.downcase.chomp
+output = input.gsub(/s/, "th")
+p output
 
 # Your code here
