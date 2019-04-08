@@ -30,6 +30,7 @@ common = first & second
 
 
 
+
 # Beast mode:
 # Does your code deal with capital letters? Update your solution so that
 # they will be downsized if they are input but HIDDEN remains capitalised.

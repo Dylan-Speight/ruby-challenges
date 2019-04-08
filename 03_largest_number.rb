@@ -20,7 +20,7 @@
 def largest_number(number_1, number_2)       # Defining the method
 
   if !number_1.is_a?(Numeric) or !number_2.is_a?(Numeric)
-      puts "Gimme a number"
+      puts "Gimme numbers"
   elsif number_1 == number_2                     # In case of equal values will return "They are the same"
       puts "They are the same"  
   else
@@ -33,4 +33,4 @@ puts largest_number(100, 50)                 #Highest value of 100 is returned a
 
 puts largest_number(10, 20)
 
-puts largest_number2("Hot", "Cold")            # Strings return highest value in alphabetical order 
+puts largest_number(10, 10.5)            # Strings return highest value in alphabetical order 

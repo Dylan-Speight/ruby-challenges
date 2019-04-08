@@ -11,9 +11,7 @@
 # ruby tests/08_count_letters_test.rb
 
 def count_letters (string)
-  string = string.chars
-  count_letters_hash = string.uniq.map { |letter| [letter, string.count(letter)] }.to_h
-  return count_letters_hash
+  count_letters_hash = string.chars.uniq.map { |letter| [letter, string.count(letter)] }.to_h
 end
 
 

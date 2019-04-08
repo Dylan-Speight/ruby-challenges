@@ -14,30 +14,18 @@
 # Check your solution by running the tests:
 # ruby tests/06_definition_test.rb
 
+
 class Definition
-    attr_accessor :word, :definition
     def initialize
-        @word = word
-        @definition = definition
-        @list = []
-        @lookup = {}
+        @words = {}
     end
-    def add_word(word, definition)
-        @word = word
-        @definition = definition
-        @list << word
-        @lookup[word] = definition
+    def add_word(name, definition)
+        @words[name] = definition
     end
     def total_words
-        @list.length
+        @words.length
     end
-    def lookup(word)
-        @lookup[word]
+    def lookup(name)
+        @words[name]
     end
 end
-definition = Definition.new
-definition.add_word('ruby', 'A precious stone')
-definition.add_word('rails', 'Lorem ipsum')
-definition.lookup('ruby')
-definition.lookup('rails')
-puts definition.total_words

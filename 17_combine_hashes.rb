@@ -24,8 +24,10 @@
 # Test your solution with ruby tests/17_combine_hashes.rb
 hash1 = { a: 3, b: 5, c: 1}
 hash2 = { a: 5, b: 2, c: 14}
-
-hash1 + hash2
+def combine_hashes(hash1, hash2)
+    p hash1.merge(hash2){|key, oldval, newval| newval + oldval}
+end
+# look for .merge method 
 # for hash1.each in
 # hash2.has_key?
 # def combine_hashes(hash1, hash2)

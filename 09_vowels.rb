@@ -11,12 +11,13 @@
 # ruby tests/09_vowels_test.rb
 
 def vowels(string)
- vowels_test = string.scan /\w/
- vowels_test.each do |vowels|
-  if string == vowels[0]
-      return vowels
-  end
+  i=0
+  p vowels_test = string.downcase.scan(/\w/)
+  p vowels_test.keep_if { |a| a == "a" }
+  #   if string == vowels[0]
+  #     return vowels
+  #   end
+  # end
+  
 end
-
-end
-p vowels("The quick brown fox")
+vowels("The quick brown fox")

@@ -19,13 +19,8 @@
 
 
 def in_array(needle, haystack)
-  # find_needle = haystack.grep(needle)
-  # find_needle = haystack.select {|needle.match(needle)}
-  %w(Cat Dog Bird).has? 'needle'
-  if find_needle == "#{needle}"
-    return true
-  else return false
-  end
+
+  haystack.include?(needle)
 end
 puts in_array("hello", ["hi", "howdy", "hello"])
 

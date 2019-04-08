@@ -13,12 +13,10 @@
 # b = [5, 6, 7, 8]
 
 def sum_numbers(numbers)
-  if !numbers.is_a?(Numeric)
-    puts "I require numbers"
-  else
     return numbers.inject(:+)
-  end
 end
+
+
 sum_numbers([])
 # sum_numbers([1,1,1])
 # sum_numbers([5,2,100,0,10])
