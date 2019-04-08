@@ -27,7 +27,6 @@
 * 07_included_once
 * 08_count_letters
 * 09_vowels
-<<<<<<< HEAD
 * 10_unique
 * 11_fizzbuzz
 * 12_count_words
@@ -46,12 +45,5 @@
 * 25_remove_adjacent_duplicates
 * 26_max_min
 * 27_in_array_strict
-<<<<<<< HEAD
-* 28_good_walk
-=======
 * 28_good_walk
 * 29_shortest_walk
->>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
-=======
-* 10_unique
->>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
