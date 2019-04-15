@@ -18,5 +18,12 @@
 # ruby tests/10_unique_test.rb
 
 def unique(mylist)
-  # Your code here
+    seen = Array.new(0)
+    mylist.each do |x|
+        if !seen.include?(x)  
+            seen << x 
+        end
+    end
+    return seen    
 end
+p unique([1,2,3,4,4,4])

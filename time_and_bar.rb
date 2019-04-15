@@ -45,7 +45,7 @@ class Drinks
                 "#{@quantity} #{drink_name}"
         end
         def total_drink_profit
-                "%.2f" % (@quantity * (@sell - @cost))
+                (@quantity * (@sell - @cost))
         end
         def customer_clear
                         @customer = 0

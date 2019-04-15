@@ -22,5 +22,3 @@ def max_min(num_string)
     "#{sorted_string_array[sorted_string_array.length - 1]} #{sorted_string_array[0]}"
 end
 
-
-p ((((((["carol","frank","3","purly"] * "").chars.sort) * "").squeeze.reverse.chars.map {|e| e*3}) *"").chars.shuffle) * ""

@@ -27,14 +27,13 @@
 
 def first_non_repeating(input)
     array = input.chars
-    array .each_with_index do |value, i|
-        if value == array[i-1] or value == array[i+1]
-            return value
+    array.each.with_index(2) do |i|
+        if i != array[array.index[i-1]] or i != array[array.index[i+1]]
+            return i         
         else 
         end
     end
-    return true
-    
+    return false    
 end
 
 # COmpare the current index with the index before and after then 

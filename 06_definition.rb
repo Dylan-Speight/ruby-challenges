@@ -17,15 +17,15 @@
 
 class Definition
     def initialize
-        @words = {}
+        @words = {}     # Creates an empty hash to push words and definitions into. Using hash allows for the words to have a definition.
     end
     def add_word(name, definition)
-        @words[name] = definition
+        @words[name] = definition   # Adds the key 'name' and assigns the value of 'definition' to it within the hash.
     end
     def total_words
-        @words.length
+        @words.length   # Checks for the number of key, value pairs and returns 
     end
     def lookup(name)
-        @words[name]
+        @words[name]    # Will lookup the key/name and return the value/definition
     end
 end

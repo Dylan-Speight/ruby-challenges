@@ -45,7 +45,7 @@
 
 def shortest_walk(walk)
     # your code goes here
-
-
-    
+    walk.count('w') == walk.count('e') and
+    walk.count('n') == walk.count('s') and
+    walk.count == 10
 end

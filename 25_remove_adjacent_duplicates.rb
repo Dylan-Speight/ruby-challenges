@@ -16,10 +16,10 @@
 def remove_adjacent_duplicates(input)
     input.squeeze
 end
-index = 0
-inputArray = input.chars
-for inputArray.each_with_index
-    if inputArray[index] != inputArray[index + 1]
-        inputArray.delete_at(index)
+# index = 0
+# inputArray = input.chars
+# for inputArray.each_with_index
+#     if inputArray[index] != inputArray[index + 1]
+#         inputArray.delete_at(index)
 
     

@@ -22,10 +22,10 @@
 # Check your solution by running the tests:
 # ruby tests/13_fibonacci_test.rb
 
-def nthFibonacci(n)
-  return  n  if n <= 1 
-  nthFibonacci(n - 1) + nthFibonacci(n - 2)
-end 
+# def nthFibonacci(n)
+#   return  n  if n <= 1 
+#   nthFibonacci(n - 1) + nthFibonacci(n - 2)
+# end 
 
 def nthFibonacci(n)
   n <= 1 ? n :  nthFibonacci(n - 1) + nthFibonacci(n - 2) 
