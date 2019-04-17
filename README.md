@@ -49,6 +49,7 @@
 * 29_shortest_walk
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 30_spin_words
 >>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
@@ -56,3 +57,8 @@
 * 30_spin_words
 * 31_missing_letter
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+* 30_spin_words
+* 31_missing_letter
+* 32_interesting_number
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
