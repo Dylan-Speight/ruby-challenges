@@ -26,3 +26,17 @@ def spin_words (words)
     return array.join(" ")
 end
 
+# def spin_words (words)
+#     list = words.split(" ")
+#     final = []
+#     for item in list do
+#         if item.chars.length > 5
+#             final << item.chars.reverse
+#             final << " "
+#         else
+#             final << item
+#             final << " "
+#         end
+#     end
+#     final.join.to_s.strip
+# end

@@ -27,10 +27,9 @@
 
 def first_non_repeating(input)
     array = input.chars
-    array.each.with_index(2) do |i|
-        if i != array[array.index[i-1]] or i != array[array.index[i+1]]
-            return i         
-        else 
+    array.each.with_index(1) do |i|
+        if i != array[array.index[i]-1] and i != array[array.index[i]+1]
+            return i
         end
     end
     return false    
