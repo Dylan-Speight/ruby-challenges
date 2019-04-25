@@ -10,11 +10,14 @@
 # interesting_number(6) => false
 # interesting_number(23) => false
 
+
 # When the digits are incrementing, 0 comes after 9:
 # interesting_number(7890) => true
 # When the digits are decrementing, 0 comes after 1:
 # interesting_number(3210) => true
 
-def interesting_number(number)
-    # your code goes boop
-end
+# def interesting_number(number)
+#     # your code goes boop
+# end
+p k = 7890.digits.reverse.map{|x| x.to_i}
+p [7,4,5,6,7,8,9].join.to_i
